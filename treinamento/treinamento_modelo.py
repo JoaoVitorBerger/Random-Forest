@@ -26,19 +26,19 @@ os.makedirs(models_dir, exist_ok=True)
 # ================================
 linhas_para_ler2 = 164407 - 22551
 df_ddos = pd.read_csv(
-    "./Trafego/DDos.csv",
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
     skiprows=range(1, 22551),
     nrows=linhas_para_ler2
 )
 
 linhas_para_ler = 275048 - 87794
 df_portscan = pd.read_csv(
-    "./Trafego/PortScan.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
     skiprows=range(1, 87794),
     nrows=linhas_para_ler
 )
 df_normal = pd.read_csv(
-    "./Trafego/Normal.csv",
+    "Wednesday-workingHours.pcap_ISCX.csv",
     skiprows=range(1, 2),
     nrows=linhas_para_ler
 )
