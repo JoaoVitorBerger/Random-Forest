@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 python treinamento_modelo.py
 
-### Edite essa variável com as runs que deseja
+### Edite essa variável com as runs que deseja no arquivo rede.py
 RUN_DIR = "runs/run_20250901_235809"
 
 python rede.py
