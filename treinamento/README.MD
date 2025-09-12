@@ -71,6 +71,18 @@ source venv/bin/activate # Linux/Mac
 
 pip install -r requirements.txt
 
+Realizar o download do dataset de treinamento do modelo em http://cicresearch.ca/CICDataset/CIC-IDS-2017/Dataset/
+
+Após baixar o dataset armazene em uma pasta dentro de treinamento 
+
+├── treinamento/ # Artefatos de treino (modelos, selector, registry, etc.)
+│ ├── Trafego/
+│ │ ├── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+│ │ ├── Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+│ │ ├── Wednesday-workingHours.pcap_ISCX.csv
+
+ # Exemplos de arquivos CSV de tráfego
+
 python treinamento_modelo.py
 
 ### Edite essa variável com as runs que deseja no arquivo rede.py
