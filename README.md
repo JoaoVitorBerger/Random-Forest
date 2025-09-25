@@ -7,7 +7,7 @@ O objetivo é oferecer uma interface visual para:
 - Avaliar novos arquivos de tráfego de rede (CSV).
 - Gerar métricas de classificação e curvas ROC.
 - Visualizar insights sobre IPs, portas, protocolos e comportamentos suspeitos.
-- Exportar blocklists de IPs maliciosos detectados.
+
 
 ---
 
@@ -68,3 +68,8 @@ pip install -r requirements.txt
 
 ## Execute o servidor localmente
 streamlit run analise.py
+
+## Faça o download do database para visualização dos resultados
+http://cicresearch.ca/CICDataset/CIC-IDS-2017/Dataset/
+
+## Ao abrir o analisador carregue os arquivos do dataset para ter um insight sobre os valores encontrados
